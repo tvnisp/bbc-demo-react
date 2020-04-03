@@ -37,6 +37,11 @@ html {
     text-align: center;
     font-weight: 500;
   }
+  @media only screen and (max-width: 580px) {
+    .container {
+      padding: 3px;
+    }
+  }
 }
 
 .loader {

@@ -50,6 +50,12 @@ html {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 580px) {
+  .navbar .container {
+    padding: 3px;
+  }
+}
+
 .loader {
   width: 80px;
   height: 80px;
